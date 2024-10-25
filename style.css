@@ -41,6 +41,7 @@ header > nav > a {
   background-color: black;
   color: white;
   text-decoration: none;
+  display: block;
   padding: 10px;
   margin: 5px;
   text-align: center;
@@ -52,11 +53,27 @@ header nav a:hover {
   color: black;
   transition: background-color .5s;
 }
+
+i#burguer {
+  background-color: black;
+  display: none;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+i#burguer:hover {
+  background-color: white;
+  color: black;
+}
   
 main {
   background-color: white;
+  max-width: 80vw;
+  margin: auto;
   padding: 10px;
-  margin: 10px;
+  margin-top: 10px;
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.374);
 }
